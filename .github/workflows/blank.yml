@@ -16,3 +16,19 @@ jobs:
 
       - name: Fourth-Step
         run: echo "Done with all steps."
+
+  
+  Second-Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fifth-Step
+        run: echo "This is the fifth step."
+
+      - name: Sixth-Step
+        run: echo "This is the sixth step."
+
+      - name: Seventh-Step
+        run: echo "This is the seventh step."
+
+      - name: Eighth-Step
+        run: echo "Done with all steps."
